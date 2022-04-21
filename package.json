@@ -1,0 +1,23 @@
+{
+  "name": "scripts-to-save",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ts-cli.js",
+  "scripts": {
+    "start": "node ts-cli.js"
+  },
+  "bin": {
+    "typescript-cli": "./bin/typescript-cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "fast-glob": "^3.2.11",
+    "fs-extra": "^10.1.0",
+    "rambda": "^7.0.3",
+    "shelljs": "^0.8.5",
+    "yargs": "^17.4.1"
+  }
+}
